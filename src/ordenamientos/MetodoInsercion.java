@@ -61,5 +61,6 @@ public class MetodoInsercion {
 		for(int j = (numElementos - 1); j >= 0; j--) {
 			System.out.print(numArray[j] + "  ");
 		}
+		
 	}
 }

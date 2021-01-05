@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Retry_Logic {
 	
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		int count = 0;
@@ -28,6 +29,8 @@ public class Retry_Logic {
 				System.err.println("You only have "+(maxTries-count)+" tries remaining, please enter a integer digit.");
 			}
 		}
+		
+		sc.close();
 	}
 
 }
